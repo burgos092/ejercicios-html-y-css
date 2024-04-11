@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>estructura web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        header,
+        .hero,
+        main,
+        .slider-bar,
+        .extra-content,
+        .related-images,
+        .related-post,
+        footer {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #555;
+            border-radius: 8px;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+        }
+        
+        .hero {
+            background-image: url('https://megaricos.com/wp-content/uploads/2019/12/Palazzo-di-Amore-1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-align: center;
+        }
+        
+        main {
+            display: flex;
+            justify-content: space-between;
+            background-color: #e7b964;
+        }
+        
+        .main-content,
+        .slider-bar,
+        .extra-content {
+            flex: 1;
+            margin-right: 20px;
+            background-color: #d8f89b;
+        }
+        
+        .extra-content {
+            margin-right: 0;
+        }
+        
+        .related-images,
+        .related-post {
+            flex: 0.5;
+            background-color: #d58cf1;
+        }
+        
+        footer {
+            background-color: #ff5d12;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>HEADER</h2>
+    </header>
+
+    <div class="hero">
+        <h2>HERO</h2>
+    </div>
+
+    <main>
+        <div class="main-content">
+            <h2>MAIN CONTENT</h2>
+        </div>
+
+        <div class="slider-bar">
+            <h2>SLIDER BAR</h2>
+        </div>
+
+        <div class="extra-content">
+            <h2>EXTRA CONTENT</h2>
+        </div>
+    </main>
+
+    <div class="related-images">
+        <h2>RELATED IMAGES</h2>
+    </div>
+
+    <div class="related-post">
+        <h2>RELATED POST</h2>
+    </div>
+
+    <footer>
+        <h2>FOOTER</h2>
+    </footer>
+
+</body>
+
+</html>
